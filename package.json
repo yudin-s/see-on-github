@@ -23,6 +23,15 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
+  "keywords": [
+    "browser",
+    "vue",
+    "vuejs",
+    "web",
+    "frontend",
+    "vanila",
+    "promotion"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.7",

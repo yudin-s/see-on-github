@@ -69,7 +69,7 @@ if (!argv.format || argv.format === 'es') {
     ...baseConfig,
     external,
     output: {
-      file: 'dist/see-on-github.esm.js',
+      file: 'dist/see-on-github-vue.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -99,7 +99,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/see-on-github.ssr.js',
+      file: 'dist/see-on-github-vue.ssr.js',
       format: 'cjs',
       name: 'SeeOnGithub',
       exports: 'named',
@@ -127,7 +127,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/see-on-github.min.js',
+      file: 'dist/see-on-github-vue.min.js',
       format: 'iife',
       name: 'SeeOnGithub',
       exports: 'named',

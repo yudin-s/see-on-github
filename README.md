@@ -1,2 +1,3 @@
-# see-on-github
-Components adds button "Watch on Github" at down of page
+# see-on-github Vue.js NPM Package
+
+Improve your portfolio websites by this simple component! 

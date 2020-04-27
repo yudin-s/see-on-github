@@ -1,8 +1,12 @@
 {
   "name": "see-on-github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component adds 'See on Github' sticky block on the bottom of the every page where added.",
   "author": "Sergei Iudin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yudin-s/see-on-github.git"
+  },
   "main": "dist/see-on-github.ssr.js",
   "browser": "dist/see-on-github.esm.js",
   "module": "dist/see-on-github.esm.js",

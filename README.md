@@ -6,7 +6,20 @@ Improve your portfolio websites by this simple component!
 
 ## How to install? 
 
-> npm i see-on-github-vue
+`npm i see-on-github-vue
+`
+
+After just put this component code: 
+
+` <see-on-github linkTo="[Link to you github project]" />
+`
+
+## Changelog 
+
+### 1.0.5
+
+- Frontend changes for make center position correctness 
+- Fix huge SVG issue on Nuxt.js Run Generate issue. 
 
 
 ## How it's look like? 

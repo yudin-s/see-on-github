@@ -1,3 +1,19 @@
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var script = {
   name: 'SeeOnGithub',
 
@@ -164,8 +180,9 @@ var __vue_render__ = function () {
       "href": _vm.linkTo,
       "target": "_blank"
     }
+  }, [_c('div', {
+    staticClass: "see-on-github__icon"
   }, [_c('svg', {
-    staticClass: "see-on-github__icon",
     attrs: {
       "role": "img",
       "viewBox": "0 0 24 24",
@@ -175,7 +192,7 @@ var __vue_render__ = function () {
     attrs: {
       "d": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
     }
-  })]), _vm._v("\n    " + _vm._s(_vm.caption) + "\n  ")])]);
+  })])]), _vm._v("\n    " + _vm._s(_vm.caption) + "\n  ")])]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -183,8 +200,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-351cf2c3_0", {
-    source: ".see-on-github[data-v-351cf2c3]{position:fixed;bottom:0;right:50%;background:#f6f8fa;border-top:1px solid #d1d5da;border-left:1px solid #d1d5da;border-right:1px solid #d1d5da;border-top-left-radius:8px;border-top-right-radius:8px;font-family:Roboto,sans-serif;font-size:.8em;padding:5px}.see-on-github__container[data-v-351cf2c3]{display:flex;align-items:center;text-decoration:none;color:#586069}.see-on-github__container[data-v-351cf2c3]:hover{color:#0080fe}.see-on-github__icon[data-v-351cf2c3]{width:20px;margin-right:5px}",
+  inject("data-v-27b19afc_0", {
+    source: ".see-on-github{position:fixed;bottom:0;display:flex;justify-content:center;width:100%;font-family:Roboto,sans-serif;font-size:.8em}.see-on-github__container{display:flex;align-items:center;text-decoration:none;color:#586069;background:#f6f8fa;border-top:1px solid #d1d5da;border-left:1px solid #d1d5da;border-right:1px solid #d1d5da;border-top-left-radius:8px;border-top-right-radius:8px;padding:5px}.see-on-github__container:hover{color:#0080fe}.see-on-github__icon{width:20px;margin-right:5px}",
     map: undefined,
     media: undefined
   });
@@ -192,7 +209,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-351cf2c3";
+const __vue_scope_id__ = undefined;
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
